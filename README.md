@@ -1,4 +1,4 @@
-# Identification of Candidate miRNAs Involved in Inflammatory Pathways Across Pulmonary, Cardiovascular, and Neurological Diseases Using Machine Learning and SHAP-Based Interpretation
+# An Integrative Machine Learning and SHAP-Based Identification of Candidate miRNAs Linked to Inflammatory Pathways Across Pulmonary, Neurological and Cardiovascular Diseases
 
 ## ⚠️ Academic & Publication Notice
 > **Manuscript Status:** Publication Pipeline / In Preparation
@@ -7,13 +7,13 @@
 ---
 
 ## 📌 Project Abstract & Analytical Framework
-Pulmonary, cardiovascular, and neurological diseases are complex disorders characterized by shared inflammatory and molecular dysregulation. MicroRNAs (miRNAs) function as vital post-transcriptional regulators of inflammation and immune response across these conditions. 
+Pulmonary, neurological and cardiovascular diseases are complex disorders characterized by shared inflammatory and molecular dysregulation. MicroRNAs (miRNAs) function as vital post-transcriptional regulators of inflammation and immune response across these conditions. 
 
 This research presents an integrative machine learning and SHAP (SHapley Additive exPlanations) framework for multi-disease classification using peripheral blood miRNA expression profiles to isolate robust biomarkers and decipher underlying cross-disease mechanisms.
 
 ### 📊 Computational Workflow & Performance Metrics
 * **Objective:** Investigated the role of miRNA-mediated regulation in inflammatory pathways across pulmonary, cardiovascular, and neurological disease groups, with a strict emphasis on identifying shared and disease-specific molecular mechanisms driven by chronic inflammation and immune dysregulation.
-* **Data Source:** Raw peripheral blood miRNA datasets spanning **Lung Cancer, Chronic Obstructive Pulmonary Disease (COPD), Multiple Sclerosis (MS), Myocardial Infarction (MI), Glioma, and Heart Failure (HF)** were systematically retrieved from public repositories.
+* **Data Source:** Raw peripheral blood miRNA datasets spanning **Lung Cancer, Chronic Obstructive Pulmonary Disease (COPD), , Myocardial Infarction (MI), Heart Failure (HF), Glioma, and Multiple Sclerosis (MS)** were systematically retrieved from public repositories.
 * **Model Benchmarking:** Following extensive preprocessing, four distinct machine learning classifiers were developed and benchmarked. The **Random Forest** architecture achieved top-tier baseline performance with a predictive accuracy of **75%**.
 * **Explainable AI Framework:** The top 20 predictive features were isolated using model-agnostic feature importance and thoroughly interpreted using **SHAP analysis** to evaluate the exact local and global mathematical contributions of candidate miRNAs.
 * **Biological Translation:** Functional pathways analysis revealed that the top-contributing miRNAs converge on critical inflammatory and oncogenic pathways including **NF-κB, PI3K/Akt, MAPK, and HIF-1α**, mapping the precise links between immune activation, oxidative stress, and multi-organ tumorigenesis across the target disorders.
